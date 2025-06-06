@@ -3,46 +3,67 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Protech AMC - Tech Support</title>
+    <title>Protech AMC - Tech Support & Services</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #f9fafc;
             color: #333;
         }
         header {
-            background-color: #004aad;
+            background: linear-gradient(90deg, #004aad, #0077cc);
             color: white;
-            padding: 20px 0;
+            padding: 30px 20px;
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
         }
         main {
-            padding: 40px;
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
             text-align: center;
         }
-        footer {
-            background-color: #222;
-            color: white;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            font-size: 14px;
+        main h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        main p {
+            font-size: 1.1em;
+            line-height: 1.6;
         }
         .button {
             display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
+            margin-top: 30px;
+            padding: 12px 25px;
             background-color: #004aad;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            font-size: 1em;
+            border-radius: 6px;
             transition: background-color 0.3s ease;
         }
         .button:hover {
             background-color: #00307d;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 14px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 50px;
         }
     </style>
 </head>
@@ -53,7 +74,18 @@
     </header>
     <main>
         <h2>Fast, Affordable, and Professional Tech Support</h2>
-        <p>We help businesses manage and protect their technology with affordable AMC (Annual Maintenance Contract) services.</p>
+        <p>
+            We help businesses manage and protect their technology with affordable and reliable Annual Maintenance Contract (AMC) services.
+            Our experienced team ensures that your IT systems run smoothly, allowing you to focus on growing your business.
+        </p>
+        <p>
+            Services Offered:
+            <br>- IT Infrastructure Maintenance
+            <br>- Server & Network Management
+            <br>- Security Solutions
+            <br>- On-Demand Tech Support
+            <br>- Hardware & Software Upgrades
+        </p>
         <a href="#" class="button">Contact Us</a>
     </main>
     <footer>
