@@ -2,137 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Protech AMC - Professional Tech Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Protech AMC</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
+            padding: 0;
+            background-color: #f8f9fa;
             color: #333;
         }
-
         header {
-            background: linear-gradient(to right, #0044cc, #0066ff);
+            background-color: #007bff;
             color: white;
             padding: 40px 20px;
             text-align: center;
         }
-
-        header h1 {
-            font-size: 48px;
+        h1 {
             margin: 0;
+            font-size: 3em;
         }
-
-        header p {
-            font-size: 18px;
+        p.subtitle {
+            font-size: 1.2em;
             margin-top: 10px;
         }
-
-        .container {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 0 20px;
+        main {
+            padding: 40px 20px;
+            text-align: center;
         }
-
         .services {
-            text-align: center;
-            margin-bottom: 40px;
+            margin-top: 20px;
+            font-size: 1.1em;
+            line-height: 1.6;
         }
-
-        .services h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-
-        .services ul {
-            list-style: none;
-            padding: 0;
-            font-size: 18px;
-        }
-
-        .services ul li {
-            margin: 10px 0;
-        }
-
         .button-container {
-            text-align: center;
-            margin-bottom: 40px;
+            margin-top: 40px;
         }
-
-        .book-button {
+        .button {
             background-color: #0066ff;
             color: white;
             padding: 15px 30px;
-            font-size: 18px;
-            border: none;
-            border-radius: 8px;
             text-decoration: none;
-            cursor: pointer;
+            border-radius: 6px;
+            font-size: 1.1em;
+            margin: 10px;
+            display: inline-block;
             transition: background-color 0.3s ease;
         }
-
-        .book-button:hover {
-            background-color: #0044cc;
-        }
-
-        footer {
-            background-color: #222;
-            color: #ccc;
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
-        }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 36px;
-            }
-
-            .services h2 {
-                font-size: 24px;
-            }
-
-            .book-button {
-                padding: 12px 24px;
-                font-size: 16px;
-            }
+        .button:hover {
+            background-color: #0051cc;
         }
     </style>
 </head>
 <body>
-
     <header>
         <h1>Protech AMC</h1>
-        <p>Protecting Your Technology, Empowering Your Business</p>
+        <p class="subtitle">Protecting Your Technology, Empowering Your Business</p>
     </header>
 
-    <div class="container">
-
-        <section class="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>✅ IT Infrastructure Maintenance</li>
-                <li>✅ Server & Network Management</li>
-                <li>✅ Security Solutions</li>
-                <li>✅ On-Demand Tech Support</li>
-                <li>✅ Hardware & Software Upgrades</li>
-                <li>✅ Custom IT Consulting</li>
-            </ul>
-        </section>
-
-        <div class="button-container">
-            <a class="book-button" href="https://docs.google.com/forms/d/e/1FAIpQLScqHTcAKo6a7YIXeZJgiNAcby76NQW6ISH9x8uzVMMxW_OsMA/viewform?usp=sf_link" target="_blank">
-                Book Now
-            </a>
+    <main>
+        <h2>Fast, Affordable, and Professional Tech Support</h2>
+        <p>We help businesses manage and protect their technology with affordable and reliable Annual Maintenance Contract (AMC) services. Our experienced team ensures that your IT systems run smoothly, allowing you to focus on growing your business.</p>
+        
+        <div class="services">
+            <strong>Services Offered:</strong><br>
+            - IT Infrastructure Maintenance<br>
+            - Server & Network Management<br>
+            - Security Solutions<br>
+            - On-Demand Tech Support<br>
+            - Hardware & Software Upgrades
         </div>
 
-    </div>
-
-    <footer>
-        &copy; 2025 Protech AMC. All rights reserved.
-    </footer>
-
+        <div class="button-container">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScqHTcAKo6a7YIXeZJgiNAcby76NQW6ISH9x8uzVMMxW_OsMA/viewform?usp=sf_link" class="button" target="_blank">Book Now</a>
+            <a href="mailto:avinashkr.connect@gmail.com" class="button">Contact Us</a>
+        </div>
+    </main>
 </body>
 </html>
