@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT AMC Services | Reliable IT Maintenance</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Header -->
+  <header class="bg-blue-800 text-white p-6 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">IT AMC Services</h1>
+      <a href="#contact" class="bg-white text-blue-800 px-4 py-2 rounded shadow hover:bg-gray-100">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-white py-12">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-800">Annual Maintenance Contracts for Your IT Infrastructure</h2>
+      <p class="mt-4 text-lg text-gray-600">Affordable and reliable IT support for desktops, laptops, printers, and network devices.</p>
+      <a href="#plans" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700">View AMC Plans</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-12 bg-gray-100">
+    <div class="max-w-7xl mx-auto">
+      <h3 class="text-3xl font-bold text-center text-gray-800 mb-10">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-semibold text-blue-700">Desktop & Laptop Support</h4>
+          <p class="mt-2 text-gray-600">Hardware diagnostics, OS installation, antivirus setup, and general troubleshooting.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-semibold text-blue-700">Printer & Scanner Maintenance</h4>
+          <p class="mt-2 text-gray-600">Ink/toner checks, cleaning, and connectivity setup for printers and scanners.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-semibold text-blue-700">Network & Wi-Fi Setup</h4>
+          <p class="mt-2 text-gray-600">Router installation, firewall configuration, and LAN/Wi-Fi troubleshooting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMC Plans -->
+  <section id="plans" class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-8">Our AMC Plans</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="border p-6 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-blue-700">Basic Plan</h4>
+          <p class="mt-2">₹500/device/year</p>
+          <ul class="mt-4 text-left text-gray-600">
+            <li>- Quarterly maintenance</li>
+            <li>- Phone support</li>
+            <li>- System health checks</li>
+          </ul>
+        </div>
+        <div class="border p-6 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-blue-700">Standard Plan</h4>
+          <p class="mt-2">₹800/device/year</p>
+          <ul class="mt-4 text-left text-gray-600">
+            <li>- Bi-monthly maintenance</li>
+            <li>- Onsite & phone support</li>
+            <li>- Antivirus updates</li>
+          </ul>
+        </div>
+        <div class="border p-6 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-blue-700">Comprehensive Plan</h4>
+          <p class="mt-2">₹1200/device/year</p>
+          <ul class="mt-4 text-left text-gray-600">
+            <li>- Monthly visits</li>
+            <li>- Onsite support with parts</li>
+            <li>- Priority response time</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-12 bg-gray-100">
+    <div class="max-w-2xl mx-auto text-center">
+      <h3 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h3>
+      <form class="bg-white p-6 rounded shadow space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full border p-2 rounded" required>
+        <input type="email" placeholder="Email Address" class="w-full border p-2 rounded" required>
+        <input type="tel" placeholder="Phone Number" class="w-full border p-2 rounded" required>
+        <textarea placeholder="Your Message or Requirements" class="w-full border p-2 rounded" rows="4"></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white text-center py-6">
+    <p>&copy; 2025 IT AMC Services. All rights reserved.</p>
+  </footer>
+</body>
+</html>
