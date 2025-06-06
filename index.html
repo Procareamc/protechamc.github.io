@@ -2,71 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Protech AMC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Protech AMC - Professional Tech Support</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
             color: #333;
         }
+
         header {
-            background: linear-gradient(90deg, #0052cc, #007bff);
+            background: linear-gradient(to right, #0044cc, #0066ff);
             color: white;
-            padding: 2rem 1rem;
+            padding: 40px 20px;
             text-align: center;
         }
+
         header h1 {
+            font-size: 48px;
             margin: 0;
-            font-size: 3rem;
         }
+
         header p {
-            font-size: 1.2rem;
-            margin-top: 0.5rem;
-        }
-        main {
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-        main h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-        main p {
-            font-size: 1rem;
-            margin-bottom: 1rem;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .services {
-            margin-top: 1rem;
-            margin-bottom: 2rem;
-            line-height: 1.8;
-        }
-        .button {
-            display: inline-block;
-            padding: 14px 28px;
-            margin: 0.5rem;
-            background-color: #0d6efd;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
             font-size: 18px;
-            font-family: Arial, sans-serif;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .services {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .services h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .services ul {
+            list-style: none;
+            padding: 0;
+            font-size: 18px;
+        }
+
+        .services ul li {
+            margin: 10px 0;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .book-button {
+            background-color: #0066ff;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
             transition: background-color 0.3s ease;
         }
-        .button:hover {
-            background-color: #0b5ed7;
+
+        .book-button:hover {
+            background-color: #0044cc;
         }
+
         footer {
+            background-color: #222;
+            color: #ccc;
             text-align: center;
-            padding: 1rem;
-            background-color: #f1f1f1;
-            font-size: 0.9rem;
-            margin-top: 40px;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 36px;
+            }
+
+            .services h2 {
+                font-size: 24px;
+            }
+
+            .book-button {
+                padding: 12px 24px;
+                font-size: 16px;
+            }
         }
     </style>
 </head>
@@ -77,25 +108,27 @@
         <p>Protecting Your Technology, Empowering Your Business</p>
     </header>
 
-    <main>
-        <h2>Fast, Affordable, and Professional Tech Support</h2>
-        <p>We help businesses manage and protect their technology with affordable and reliable Annual Maintenance Contract (AMC) services. Our experienced team ensures that your IT systems run smoothly, allowing you to focus on growing your business.</p>
-        
-        <div class="services">
-            <strong>Services Offered:</strong><br>
-            - IT Infrastructure Maintenance<br>
-            - Server & Network Management<br>
-            - Security Solutions<br>
-            - On-Demand Tech Support<br>
-            - Hardware & Software Upgrades<br>
+    <div class="container">
+
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>✅ IT Infrastructure Maintenance</li>
+                <li>✅ Server & Network Management</li>
+                <li>✅ Security Solutions</li>
+                <li>✅ On-Demand Tech Support</li>
+                <li>✅ Hardware & Software Upgrades</li>
+                <li>✅ Custom IT Consulting</li>
+            </ul>
+        </section>
+
+        <div class="button-container">
+            <a class="book-button" href="https://docs.google.com/forms/d/e/1FAIpQLScqHTcAKo6a7YIXeZJgiNAcby76NQW6ISH9x8uzVMMxW_OsMA/viewform?usp=sf_link" target="_blank">
+                Book Now
+            </a>
         </div>
 
-        <!-- Book Now Button -->
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScqHTcAKo6a7YIXeZJgiNAcby76NQW6ISH9x8uzVMMxW_OsMA/viewform?usp=header" target="_blank" class="button">Book Now</a>
-
-        <!-- Contact Us Button -->
-        <a href="mailto:avinashkr.connect@gmail.com" class="button">Contact Us</a>
-    </main>
+    </div>
 
     <footer>
         &copy; 2025 Protech AMC. All rights reserved.
