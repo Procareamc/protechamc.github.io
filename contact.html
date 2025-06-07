@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact - Protech AMC</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">Protech AMC</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button onclick="toggleDarkMode()" style="padding:5px 10px; border:none; border-radius:5px; cursor:pointer;">🌙 Toggle Theme</button>
+</nav>
+
+<section class="content">
+    <h2>Contact Us</h2>
+    <form onsubmit="return validateForm()" style="max-width:500px;margin:auto;">
+        <input type="text" id="name" placeholder="Your Name" required style="width:100%;padding:10px;margin:5px;">
+        <input type="email" id="email" placeholder="Your Email" required style="width:100%;padding:10px;margin:5px;">
+        <textarea id="message" placeholder="Your Message" required style="width:100%;padding:10px;margin:5px;"></textarea>
+        <button type="submit" class="button">Send Message</button>
+    </form>
+</section>
+
+<a href="#" class="back-to-top">↑ Back to Top</a>
+
+<footer>
+    &copy; 2025 Protech AMC | Contact: <a href="mailto:protechamc@gmail.com">protechamc@gmail.com</a>
+</footer>
+
+{dark_mode_script}
+<script>
+function validateForm() {
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let message = document.getElementById("message").value.trim();
+    if(name=="" || email=="" || message=="") {
+        alert("Please fill all fields.");
+        return false;
+    }
+    alert("Thank you for your message!");
+    return true;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+Protech AMC Website - SEO Checklist
+===================================
+
+1️⃣ Basic On-Page SEO
+---------------------
+✅ Title tag optimized per page
+✅ Meta description added to each page
+✅ Use H1 for main titles, H2-H3 for subheadings
+✅ Image alt text included (add to hero GIF and other images)
+✅ Clean URLs (index.html, services.html, post1.html, etc.)
+
+2️⃣ Technical SEO
+-----------------
+✅ Sitemap.xml created and ready to submit to Google Search Console
+✅ robots.txt created to allow indexing
+✅ Mobile friendly (responsive design)
+✅ Fast loading (optimize GIF and images if needed)
+
+3️⃣ Content SEO
+---------------
+✅ Home page has keyword-rich content
+✅ Blog posts written with target keywords
+✅ Internal linking between pages (blog → services → contact, etc.)
+✅ Fresh content added regularly (keep blog updated!)
+
+4️⃣ Off-Page SEO
+---------------
+✅ Add website to Google Business Profile
+✅ Submit sitemap to Google Search Console
+✅ Share blog posts on LinkedIn, Facebook, Twitter
+✅ Get backlinks from partner sites (if possible)
+
+5️⃣ Ongoing Optimization
+-----------------------
+✅ Monitor Google Analytics and Google Search Console
+✅ Update meta tags as needed
+✅ Add new blog posts regularly (1-2 per month)
+
+*** Notes: ***
+- This checklist ensures your Protech AMC site is fully ready for SEO success.
+- Keeping the blog active is one of the best ways to drive traffic.
+
