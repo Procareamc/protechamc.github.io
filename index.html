@@ -3,95 +3,66 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <!-- SEO Meta Tags -->
-    <title>Protech AMC - Professional IT Support & Annual Maintenance Services</title>
-    <meta name="description" content="Protech AMC offers expert IT support, network management, security solutions, and affordable AMC services to keep your business running smoothly. Contact us today!" />
-    <meta name="keywords" content="Protech AMC, IT Support, AMC Services, Annual Maintenance Contract, Network Management, Security Solutions, IT Maintenance, Tech Support, Protech IT, Protech Support, Business IT Services" />
-    <meta name="author" content="Protech AMC" />
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
-    <!-- Styles -->
+    <title>Protech AMC - Earth Rotating Background</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            font-family: Arial, sans-serif;
-            color: #fff;
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-
-        /* Hero section with GIF background */
-        .hero {
-            background: url('hero-bg.gif') center center/cover no-repeat;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://media4.giphy.com/media/13cxHLqRer5q6s/giphy.gif') center center / cover no-repeat;
+            z-index: -1;
+            opacity: 0.4; /* adjust opacity here */
+        }
+        .content {
             position: relative;
-            z-index: 2;
+            z-index: 1;
+            text-align: center;
+            color: white;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 0 20px;
         }
-
-        .hero h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
         }
-
-        .hero p {
-            font-size: 1.2em;
+        p {
+            font-size: 20px;
             margin-bottom: 30px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         }
-
         .button {
-            background-color: #28a9b4;
+            background-color: #2196F3;
             color: white;
             padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 1.1em;
-            display: inline-block;
-            transition: background-color 0.3s ease, transform 0.3s ease;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
-
         .button:hover {
-            background-color: #1f7f85;
-            transform: scale(1.05);
-        }
-
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            z-index: 3;
-        }
-
-        footer a {
-            color: #66b3ff;
-            text-decoration: none;
+            background-color: #0b7dda;
         }
     </style>
 </head>
 <body>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Protech AMC</h1>
-        <p>Affordable AMC. Professional IT Support. Zero Downtime.</p>
-        <a href="services.html" class="button">Get Started</a>
-    </section>
+    <div class="background"></div>
 
-    <!-- Footer -->
-    <footer>
-        &copy; 2025 Protech AMC | Contact: <a href="mailto:protechamc@gmail.com">protechamc@gmail.com</a>
-    </footer>
+    <div class="content">
+        <h1>Welcome to Protech AMC 🌍</h1>
+        <p>Your Tech, Our Priority.</p>
+        <button class="button" onclick="window.location.href='#get-started';">Get Started</button>
+    </div>
 
 </body>
 </html>
