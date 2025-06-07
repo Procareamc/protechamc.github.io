@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Services - Protech AMC</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            scroll-behavior: smooth;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #66b3ff;
+        }
+        .hero {
+            background: url('hero-bg.gif') center center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 60px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        .button {
+            background-color: #28a9b4;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .button:hover {
+            background-color: #1f7f85;
+            transform: scale(1.05);
+        }
+        section {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #111;
+        }
+        section:nth-child(even) {
+            background-color: #222;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html" class="logo">Protech AMC</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Our Services</h1>
+        <p>Explore our IT solutions and AMC packages.</p>
+        
+    </section>
+
+    <!-- Page Section -->
+    <section>
+        <p>We offer IT AMC, Remote Support, Network Management, Cybersecurity, Cloud Solutions, and more.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Protech AMC | All Rights Reserved
+    </footer>
+
+</body>
+</html>
