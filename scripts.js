@@ -1,1 +1,0 @@
-console.log("Protech AMC site loaded.");
