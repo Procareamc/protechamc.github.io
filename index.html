@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protechamc</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Navigation Bar with Dropdowns -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <div class="text-2xl font-bold text-blue-600">Protechamc</div>
+      <nav class="relative group space-x-6 hidden md:flex">
+        <div class="inline-block relative group">
+          <a href="#what-we-do" class="text-gray-700 hover:text-blue-600">What We Do</a>
+          <div class="absolute hidden group-hover:block bg-white shadow-lg rounded p-4 w-64 z-50">
+            <a href="#" class="block text-gray-700 hover:text-blue-600 py-1">Service Engagement</a>
+            <a href="#" class="block text-gray-700 hover:text-blue-600 py-1">Service Cloud Voice</a>
+            <a href="#" class="block text-gray-700 hover:text-blue-600 py-1">Transcription Services</a>
+          </div>
+        </div>
+        <div class="inline-block relative group">
+          <a href="#" class="text-gray-700 hover:text-blue-600">Apps</a>
+          <div class="absolute hidden group-hover:block bg-white shadow-lg rounded p-4 w-64 z-50">
+            <a href="#" class="block text-gray-700 hover:text-blue-600 py-1">Pre-Built Apps</a>
+            <a href="#" class="block text-gray-700 hover:text-blue-600 py-1">Toolkit Tour</a>
+          </div>
+        </div>
+        <div class="inline-block relative group">
+          <a href="#" class="text-gray-700 hover:text-blue-600">Who We Help</a>
+          <div class="absolute hidden group-hover:block bg-white shadow-lg rounded p-4 w-64 z-50">
+            <a href="#" class="block text-gray-700 hover:text-blue-600 py-1">Enterprise Clients</a>
+            <a href="#" class="block text-gray-700 hover:text-blue-600 py-1">SMBs</a>
+          </div>
+        </div>
+        <a href="#about" class="text-gray-700 hover:text-blue-600">About Us</a>
+        <a href="#resources" class="text-gray-700 hover:text-blue-600">Resources</a>
+        <a href="#contact" class="bg-orange-500 text-white py-2 px-4 rounded hover:bg-orange-600 transition">Talk to a Consultant</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white text-center py-20">
+    <h1 class="text-5xl font-bold">Empowering Your IT Infrastructure</h1>
+    <p class="mt-4 text-xl">Trusted IT Solutions for Modern Businesses</p>
+    <a href="#contact" class="mt-6 inline-block bg-white text-blue-600 font-semibold py-2 px-6 rounded-full hover:bg-gray-100 transition">Explore Our Solutions</a>
+  </section>
+
+  <!-- What We Do Section -->
+  <section class="py-20 bg-gray-50" id="what-we-do">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center text-gray-800 mb-12">What We Do</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+          <i class="fa-solid fa-headset text-blue-600 text-3xl mb-4"></i>
+          <h3 class="text-xl font-bold text-blue-600 mb-2">Service Engagement</h3>
+          <p class="text-gray-600">We provide end-to-end management of IT support, networking, and voice services.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+          <i class="fa-solid fa-cubes text-blue-600 text-3xl mb-4"></i>
+          <h3 class="text-xl font-bold text-blue-600 mb-2">DaVinci Toolkit</h3>
+          <p class="text-gray-600">Pre-built apps, use cases, and technical frameworks for integrating modern solutions.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+          <i class="fa-solid fa-robot text-blue-600 text-3xl mb-4"></i>
+          <h3 class="text-xl font-bold text-blue-600 mb-2">AI & Automation</h3>
+          <p class="text-gray-600">Deploy intelligent assistants, real-time transcription, and agent automation tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20" id="about">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-6">About Us</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        At Protechamc, we combine expertise in IT infrastructure, cybersecurity, and AI-driven automation to help businesses streamline operations and embrace modern technology. Our mission is to simplify complex IT challenges with reliable, scalable, and secure solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section class="py-20 bg-gray-100" id="resources">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-6">Resources</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+          <h3 class="text-xl font-bold text-blue-600 mb-2">Whitepapers & Case Studies</h3>
+          <p class="text-gray-600">Explore how we’ve helped clients achieve business transformation through IT innovation.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-md transition">
+          <h3 class="text-xl font-bold text-blue-600 mb-2">News & Insights</h3>
+          <p class="text-gray-600">Stay up to date with our latest articles, industry news, and technology trends.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 bg-blue-50" id="contact">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-6">Contact Us</h2>
+      <p class="text-gray-600 mb-10">We'd love to hear from you. Reach out to us for your IT needs.</p>
+      <form class="max-w-xl mx-auto text-left bg-white p-6 rounded-lg shadow">
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-1">Name</label>
+          <input type="text" class="w-full border border-gray-300 rounded px-4 py-2" required>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-1">Email</label>
+          <input type="email" class="w-full border border-gray-300 rounded px-4 py-2" required>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 mb-1">Message</label>
+          <textarea class="w-full border border-gray-300 rounded px-4 py-2" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 Protechamc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
